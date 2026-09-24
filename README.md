@@ -96,6 +96,21 @@ Everything lives in `pet.py`:
 
 To map tools to states, edit `TOOL_STATES` in `hook.py`.
 
+## Support
+
+<div align="center">
+
+<img src="assets/done.gif" width="264" alt="Clawd jumping happily with golden sparkles" />
+
+claude-cutie is free, open source and made just for fun.<br />
+If Clawd made your coding sessions a little cozier, you can buy me a coffee ☕
+
+<a href="https://ko-fi.com/rsxcore"><img src="https://ko-fi.com/img/githubbutton_sm.svg" height="36" alt="Support rsxcore on Ko-fi" /></a>
+
+<sub>Totally optional. Stars, issues and new animation ideas make Clawd just as happy.</sub>
+
+</div>
+
 ## License
 
 [MIT](LICENSE). Clawd is a fan-made tribute and is not affiliated with Anthropic.

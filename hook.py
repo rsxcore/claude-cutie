@@ -48,6 +48,12 @@ def main():
         state = "idle"
         if not pet_running():
             launch_pet()
+    elif event == "waiting":
+        # Notification also fires as an "idle" reminder after Claude finished; that isn't a request
+        kind = str(data.get("notification_type") or "")
+        msg = str(data.get("message") or "").lower()
+        if kind == "idle_prompt" or "waiting for your input" in msg:
+            state = "idle"
     elif event == "tool":
         state = TOOL_STATES.get(data.get("tool_name", ""), "thinking")
         ti = data.get("tool_input") or {}
